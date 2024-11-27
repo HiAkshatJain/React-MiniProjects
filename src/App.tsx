@@ -3,11 +3,13 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import PaginationComponent from "./components/PaginationComponent";
 import SearchComponent from "./components/SearchComponent";
 import ToastComponent from "./components/ToastComponent";
+import StarRatingComponent from "./components/StarRatingComponent";
 
 const projects = [
   { name: "SearchComponent", component: <SearchComponent /> },
   { name: "PaginationComponent", component: <PaginationComponent /> },
   { name: "ToastComponent", component: <ToastComponent /> },
+  { name: "StarRatingComponent", component: <StarRatingComponent /> },
 ];
 
 const App = () => {
