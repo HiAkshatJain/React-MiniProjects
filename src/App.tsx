@@ -5,13 +5,15 @@ import SearchComponent from "./components/SearchComponent";
 import ToastComponent from "./components/ToastComponent";
 import StarRatingComponent from "./components/StarRatingComponent";
 import MemoryGame from "./components/MemoryGame";
+import PasswordGenerator from "./components/PasswordGenerator";
 
 const projects = [
-  { name: "SearchComponent", element: <SearchComponent /> },
-  { name: "PaginationComponent", element: <PaginationComponent /> },
-  { name: "ToastComponent", element: <ToastComponent /> },
-  { name: "StarRatingComponent", element: <StarRatingComponent /> },
-  { name: "MemoryGame", element: <MemoryGame /> },
+  { name: "Search Component", element: <SearchComponent /> },
+  { name: "Pagination Component", element: <PaginationComponent /> },
+  { name: "Toast Component", element: <ToastComponent /> },
+  { name: "Star Rating Component", element: <StarRatingComponent /> },
+  { name: "Memory Game", element: <MemoryGame /> },
+  { name: "Password Generator", element: <PasswordGenerator /> },
 ];
 
 const Home = () => (
