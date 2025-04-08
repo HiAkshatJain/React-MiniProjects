@@ -6,7 +6,6 @@ import ToastComponent from "./components/ToastComponent";
 import StarRatingComponent from "./components/StarRatingComponent";
 import MemoryGame from "./components/MemoryGame";
 
-// 🔁 List of all components with name + JSX element
 const projects = [
   { name: "SearchComponent", element: <SearchComponent /> },
   { name: "PaginationComponent", element: <PaginationComponent /> },
@@ -15,7 +14,6 @@ const projects = [
   { name: "MemoryGame", element: <MemoryGame /> },
 ];
 
-// 🏠 Home Page with list of links
 const Home = () => (
   <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white">
     <header className="bg-blue-600 text-white py-6 text-center shadow-lg">
@@ -39,7 +37,6 @@ const Home = () => (
   </div>
 );
 
-// 🔁 Shared layout for individual component pages
 const PageWrapper = ({
   title,
   children,
