@@ -6,6 +6,7 @@ import ToastComponent from "./components/ToastComponent";
 import StarRatingComponent from "./components/StarRatingComponent";
 import MemoryGame from "./components/MemoryGame";
 import PasswordGenerator from "./components/PasswordGenerator";
+import LikeButton from "./components/LikeButton";
 
 const projects = [
   { name: "Search Component", element: <SearchComponent /> },
@@ -14,6 +15,7 @@ const projects = [
   { name: "Star Rating Component", element: <StarRatingComponent /> },
   { name: "Memory Game", element: <MemoryGame /> },
   { name: "Password Generator", element: <PasswordGenerator /> },
+  { name: "Like Button", element: <LikeButton /> },
 ];
 
 const Home = () => (
