@@ -7,6 +7,7 @@ import StarRatingComponent from "./components/StarRatingComponent";
 import MemoryGame from "./components/MemoryGame";
 import PasswordGenerator from "./components/PasswordGenerator";
 import LikeButton from "./components/LikeButton";
+import NestedComponent from "./components/NestedComponents";
 
 const projects = [
   { name: "Search Component", element: <SearchComponent /> },
@@ -16,6 +17,7 @@ const projects = [
   { name: "Memory Game", element: <MemoryGame /> },
   { name: "Password Generator", element: <PasswordGenerator /> },
   { name: "Like Button", element: <LikeButton /> },
+  { name: "Nested Components", element: <NestedComponent /> },
 ];
 
 const Home = () => (
