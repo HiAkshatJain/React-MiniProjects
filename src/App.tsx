@@ -8,6 +8,7 @@ import MemoryGame from "./components/MemoryGame";
 import PasswordGenerator from "./components/PasswordGenerator";
 import LikeButton from "./components/LikeButton";
 import NestedComponent from "./components/NestedComponents";
+import TicTacToeComponent from "./components/TicTacToeComponent";
 
 const projects = [
   { name: "Search Component", element: <SearchComponent /> },
@@ -18,6 +19,7 @@ const projects = [
   { name: "Password Generator", element: <PasswordGenerator /> },
   { name: "Like Button", element: <LikeButton /> },
   { name: "Nested Components", element: <NestedComponent /> },
+  { name: "TicTacToe Components", element: <TicTacToeComponent /> },
 ];
 
 const Home = () => (
